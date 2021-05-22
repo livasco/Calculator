@@ -1,0 +1,55 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Calculator</title>
+		<link rel="stylesheet" href="./undex.css">
+		<link rel="stylesheet" href="./grid.css">
+		<link rel="stylesheet" href="./reset.css">
+	</head>
+	
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<p id="output" class="display-result col-md-12">0</p>
+			</div>
+			<div class="row">
+				<button class="col-md-6" onclick="clearValue">C</button>
+				<button class="col-md-3">%</button>
+				<button class="col-md-3">/</button>
+			</div>
+			
+			<div class="row">
+				<button class="col-md-3" onclick="HCB(7)">7</button>
+				<button class="col-md-3" onclick="HCB(8)">8</button>
+				<button class="col-md-3" onclick="HCB(9)">9</button>
+				<button class="col-md-3" onclick="HCB(*)">X</button>
+			</div>
+			
+			<div class="row">
+				<button class="col-md-3" onclick="HCB(4)">4</button>
+				<button class="col-md-3" onclick="HCB(5)">5</button>
+				<button class="col-md-3" onclick="HCB(6)">6</button>
+				<button class="col-md-3" onclick="HCB(-)">-</button>
+			</div>
+			
+			<div class="row">
+				<button class="col-md-3" onclick="HCB(1)">1</button>
+				<button class="col-md-3" onclick="HCB(2)">2</button>
+				<button class="col-md-3" onclick="HCB(3)">3</button>
+				<button class="col-md-3" onclick="HCB(+)">+</button>
+			</div>
+			
+			<div class="row">
+				<button class="col-md-6" onclick="HCB(0)">0</button>
+				<button class="col-md-3" onclick="HCB(.)">.</button>
+				<button class="col-md-3" onclick="HCB(=)">=</button>
+				</div>
+			</div>
+		</div>
+		<script src="./MJS.js"> </script>
+		
+	</body>
+	
+
+
+</html>
